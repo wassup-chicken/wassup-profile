@@ -6,8 +6,7 @@ const Test = () => {
     const [data, setData] = useState(null);
     const handleSubmit = async () => {
 
-        const res = await fetch('/api/test');
-
+        const res = await fetch('/api/test.json');
         const json = await res.json();
 
         setData(json.data.message);

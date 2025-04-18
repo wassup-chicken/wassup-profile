@@ -1,9 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
-    basePath: '/wassup-profile',
-    assetPrefix: '/wassup-profile',
-
-};
+const nextConfig = {};
 
 export default nextConfig;
