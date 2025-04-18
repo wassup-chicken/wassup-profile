@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
