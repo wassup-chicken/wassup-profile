@@ -8,7 +8,7 @@ const Profile = () => {
         <Link href="/" >
           <Image className="rounded-full w-50 h-50"
             href="/"
-            src="/profile_ghibli.png"
+            src="./profile_ghibli.png"
             alt="Profile"
             width={700}
             height={700}
