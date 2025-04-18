@@ -19,7 +19,7 @@ const Profile = () => {
           <p className="text-gray-600">Software Engineer | Curious by Nature</p>
         </div>
       </div>
-      <div className="flex text-2xl font-bold justify-center space-x-10 mt-15">
+      <div className="flex flex-col sm:flex-row sm:justify-center sm:space-x-10 space-y-4 sm:space-y-0 text-2xl font-bold mt-15 text-center sm:text-left">
         <Link href="/">Skills</Link>
         <Link href="/about">About</Link>
         <Link href="https://github.com/wassup-chicken" target="_blank">Github</Link>
